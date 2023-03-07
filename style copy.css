@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600&display=swap');
+
+*{
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    margin: 5;
+    padding: 0;
+    background-color: #faf0cf;
+}
+
+
+#logo-elidiane {
+    height: 150px;
+}
+
+#topo-site {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px;
+
+}
+
+
+nav {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+
+
+}
+
+h1, h2 {
+    text-align: center;
+    padding: 30px;
+}
+
+#foto-perfil {
+    height: 400px;
+    padding: 45px;
+    text-align: center;
+    transition: transform 0.8s;
+}
+
+#foto-perfil:hover {
+    transform: scale(1.3);
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+.perfil {
+    background-color: rgba(255, 215, 255, 0.493);
+    border-radius: 15px;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: justify;
+    text-indent: 45px;
+    margin: 15px;
+}
+
+.info-contato {
+    color: #ffffff;
+    background-color: #0000009c;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    position: absolute;
+    top: 40px; left: 40px;
+    display: none;
+    transition: transform 0.8s;
+}
+
+
+.skills {
+    background-color: rgba(255, 215, 255, 0.493);
+    border-radius: 15px;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-indent: 45px;
+    margin: 15px;
+}
+
+.skills-logo {
+    height: 110px;
+
+}
+
+.skills-div {
+    transition: transform 0.8s;
+}
+
+.skills-div:hover {
+    font-weight: bold;
+    transform: scale(1.3);
+}
+
+aside {
+    float: left;
+    text-align: justify;
+    font-size: 13px;
+    width: 25%;
+}
+
+
+main {
+    text-align: justify;
+    padding: 40px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.home-div {
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding: 25px;
+    justify-content: center;
+    transition: transform 0.8s;
+
+}
+
+.home-div:hover {
+    transform: scale(1.3);
+
+}
+
+.navegue-por-aqui {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding: 15px;
+    justify-content: center;
+}
+
+
+
+.contato {
+    background-color: rgba(255, 215, 255, 0.493);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 200px;
+    margin: 15px;
+}
+
+
+
+#social-icons {
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    padding: 15px;
+}
+
+.social-icon {
+    width: 45px;
+    height: 45px;
+
+}
+
+.social-icon-contato {
+    height: 120px;
+
+}
+
+.social-icon-link {
+    transition: transform 0.8s;
+}
+
+.social-icon-link:hover {
+    transform: scale(1.3);
+}
+
+.social-icon-link:hover .info-contato {
+    display: grid;
+
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    font-display: auto;
+    color:rgb(38, 2, 97);
+    transition: transform 0.8s;
+}
+
+a:hover {
+    font-weight: bold;
+    transform: scale(1.3);
+    color: rgb(132, 0, 255);
+
+}
+
+footer {
+    padding: 10px;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.footer-text {
+    padding: 10px;
+    display: block;
+    margin-bottom: 0;
+}
